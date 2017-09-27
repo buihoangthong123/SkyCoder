@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin:0px;
+}
+
+#top {
+    width:100%;
+    height:109px;
+    float:left;
+    position:fixed;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 95%,rgba(0,0,0,0) 99%);
+    opacity:0.9; 
+    top:0px;
+    left:0px;
+    z-index:999;
+}
+
+#header {	 
+    font-size:32px; 
+    margin:0px;
+    margin-top:19px;
+    margin-left:23px;
+    margin-bottom:9px;
+    margin-right:34px;
+    color:rgba(255,255,255,1.00);
+    font-family:"Lato", san-serif;
+    letter-spacing:5px;
+}    
+
+#topLeft{
+    height:109px;
+    color:rgba(0,0,0,1.00);
+    width:30%;
+    float:left;
+}
+
+#topRight {
+    height:109px;
+    width:70%;
+    text-align:right;
+    float:left;    
+    color:rgba(0,0,0,1.00);
+}
+
+#mid {
+    height:auto;
+}
+
+div .menu {
+    background-color:none;
+    overflow:auto;
+    white-space:nowrap; 
+}
+
+div .menu a {
+    display:inline-block;
+    color:#FFFFFF;
+    text-align:center;
+    padding:20px;
+    margin-right:20px;
+    text-decoration:none;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:22px;
+}
+
+#topRight-menu {
+    text-align:right;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+div .menu a:hover {
+    background-color:#777;
+}
+
+.paralax_left, .paralax_right {
+    width:50%;
+    height:700px;
+    /*background:linear-gradient(to bottom, #E5EEC1, #A2D4AB, #3EACAB, #547AB2, #5A5050);*/
+    background-position:center;
+    background-attachment:fixed;
+    position:relative;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    float:left;
+    border-radius:30px;
+}
+
+.choose_course:hover .paralax_left, .choose_course:hover .paralax_right {
+    width:68%;
+}
+
+.choose_course:hover .append_right, .choose_course:hover .append_left{
+    width:30%;	
+}
+
+.choose_course .paralax_left, .append_right, .append_left, .paralax_right {
+    transition:all 0.5s ease-in-out;
+}
+
+.course {
+    height:400px;
+    width:100%;
+    float:left;
+}
+
+.container_left{
+    width:30%;
+    float:left;
+    font-size:38px;
+    font-family:"Myriad Set Pro";
+    text-align:center;
+}
+.container_right{
+    width:70%;
+    float:left;
+    height:300px;
+}
+
+#Appendix {
+    width:100%;
+    height:320px;
+    background-color:#5C5C5C;
+}
+
+.choose_course {
+    width:98.5%;
+    float:left;
+    border:0.5px thin #ccc;
+    border-radius:30px;
+    margin-top:40px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.append_right, .append_left {
+    width:50%;
+    float:left;
+    text-align:center;
+    font-family:"Myriad Set Pro";
+    font-size:70px;
+    padding-top:10px;
+}
+
+.append_left p,.append_right p{
+    font-family:"Segoe UI Light";
+    font-size:30px;
+}
+
+a {
+    text-decoration:none;
+}
+
+#Appendix {
+    width:100%;
+	float:left;
+    height:320px;
+    background-color:#5C5C5C;
+	padding:50px;
+	font-family:'Segoe UI Light';
+}

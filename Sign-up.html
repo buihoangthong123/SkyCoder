@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SkyCoder | Sign Up</title>
+        <link href="Sign-up.css" type="text/css" rel="stylesheet"/>
+        <script src="Sign-up.js"></script>
+    </head>
+
+    <body>
+        <div id="mid">
+            <div id="header1" style="font-size:60px">
+                <b> Sign up to Skycoder</b>  <br/>
+                <h1 style="font-size:30px">and get free accesss to all SkyCoder courses</h1>
+            </div>
+
+            <form name="f" action="SignUpSuccess.html">
+                <div id="inputName">
+                    Name(First and Last name)*: <br/> <input type="text" name="Name" placeholder="ex:Stephen Bui" id="Name" required/>
+                </div>
+                <div id="inputAddress">
+                    Address: <br/> <input type="text" name="address" placeholder="ex:1-232 Mountain view, CA" id="address" required/>
+                </div>
+                <div id="inputTelephone">
+                    Telephone: <br/> <input type="number" name="telephone" pattern="[0-9]{10-12}" placeholder="ex:(08)236578888" id="telephone" required/>
+                </div>
+                <div id="inputEmail">
+                    Emails*: <br/> <input type="email" name="email" placeholder="ex:someone@example" id="email" required/>
+                </div>
+                <div id="inputPass">
+                    Password*:<br/> <input type="password" name="password" pattern="[a-z]+[A-Z]+[0-9]{6-}" id="password" placeholder="password" required/>
+                    <span style="visibility:hidden;">Your password must contain at lease 1 UPPERCASE and 1 number</span>
+                </div>
+                <div id="checkReceiveInfo">
+                    <input type="checkbox" id="agreeTerm" required/> I have agree to the Term Of Service <br/>
+                    <input type="checkbox" id="received"/>I would like to receive more informations about SkyCoder
+                </div>
+               
+                 <div id="pressEnter" style="text-align:center;">
+                    <button class="button" type="submit" name="submit"><span>Sign Up</span>
+                    </button> 
+                 </div>
+                
+            </form>
+            
+            
+        </div>
+         <div id="Appendix">
+                <div style="width:20%;float:left;height:auto;color:white;font-size:20px;">
+                    <img src="bjango-quattro-lava.gif" width="200px" height="200"/>
+                </div>
+                <div style="width:30%;float:left;height:auto;color:white;font-size:25px;">
+                    <div> || SKYCODER<br/>
+                        1- 298, Mountain View, CA, USA<br/>
+                        Tel: (08)835-9999999<br/>
+                        Email :Skycoder@gmail.com<br/>
+                        Find us on :  <img src="2000px-Facebook_icon_2013.svg.png" width="20px" height="20px"/> <img src="twitter-icon-download-18.png" width="20px" height="20px"/>
+                    </div>
+                </div>
+                <div style="width:30%;float:left;font-size:23px;color:white;">
+                         All images, icons are copyrighted by font-awesome.min.css, devianart.com,...
+                         Font-style "Myriad Set Pro", "Segoe UI Light" from Microsoft(R) and  Apple;<br/>
+                         Copyrighted (c) 2016 by Bui Hoang Thong.
+                </div>
+
+            </div> 
+    </body>
+</html>

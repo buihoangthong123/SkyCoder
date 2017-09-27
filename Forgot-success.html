@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Recover</title>
+<style>
+     @charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin:0px;
+}
+
+ #head {
+	 padding-top:40px;
+	 text-align:center;	 
+	 height:auto;
+	 font-family:"Myriad Set Pro"; 
+	 width:70%;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #00FFF3;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+a {
+	text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+      <div id="head">
+            <div id="header1" style="font-size:60px">
+                <b>We have sent you a verification code</b>  <br/>
+                <h1 style="font-size:30px">please check your email's inbox to recover</h1> <br/>
+            </div>
+            <div id="enter">
+                    <div id="pressEnter" style="text-align:center;">
+                        <a href="HomePage.html"><button class="button" ><span>HomePage</span></button></a>
+                    </div>
+                </div> 
+        </div>
+</body>
+</html>

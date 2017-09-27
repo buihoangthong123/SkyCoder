@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SkyCoder | Contact</title>
+<style>
+      @charset "utf-8";
+/* CSS Document */
+
+body {
+    margin:0px;
+}
+
+#top {
+    width:100%;
+    height:110px;
+    float:left;
+    position:fixed;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 95%,rgba(0,0,0,0) 99%);
+    opacity:0.9; 
+    top:0px;
+    left:0px;
+    z-index:999;
+	
+}
+
+#topLeft{
+    height:110px;
+    color:rgba(0,0,0,1.00);
+    width:30%;
+    float:left;
+}
+
+#topRight {
+    height:110px;
+    width:70%;
+    text-align:left;
+    float:left;    
+    color:rgba(0,0,0,1.00);
+}
+
+div .menu {
+    background-color:none;
+    overflow:auto;
+    white-space:nowrap; 
+}
+
+div .menu a {
+    display:inline-block;
+    color:#FFFFFF;
+    text-align:center;
+    padding:20px;
+    margin-right:20px;
+    text-decoration:none;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:22px;
+    transition:all 1s ease-out;
+}
+
+#topRight-menu {
+    text-align:right;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+div .menu a:hover {
+    background-color:#777;
+}
+
+#header {	 
+    font-size:32px; 
+    margin:0px;
+    margin-top:19px;
+    margin-left:23px;
+    margin-bottom:9px;
+    margin-right:34px;
+    color:rgba(255,255,255,1.00);
+    font-family:"Lato", san-serif;
+    letter-spacing:5px;
+}    
+
+img {
+	width:200px;
+	height:200px; 
+}
+
+#main {
+     width:70%;
+	 height:auto;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:250px;
+		
+}
+
+#community_header, #FAQ_header, #contact_header {
+	 font-family:"Myriad Set Pro";
+	 font-size:48px;
+}
+
+input{
+	 width:340px;
+	 height:50px;
+	 border-radius:10px;
+	 border:2px solid #ccc;
+	 margin:30px;
+	 font-size:29px;
+	 font-family:"Segoe UI Light";
+}
+
+form {
+	border:1.5px solid #7C7C7C;
+}
+#form_content input {
+	height:300px;
+	width:400px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #12D942;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#Community ,#FAQ, #contact {
+	margin-top:40px;
+}
+
+#Appendix {
+    width:100%;
+    height:320px;
+    background-color:#5C5C5C;
+	padding:50px;
+	font-family:'Segoe UI Light';
+}
+</style>
+</head>
+
+<body>
+      <div id="top">
+                    <div id="topLeft">
+                        <a href="HomePage.html" style="text-decoration:none;"><h1 id="header">SkyCoder.com</h1></a>
+                    </div>
+                    <div id="topRight">
+                        <div id="topRight-menu">
+                            <div class="menu">
+                                <a href="HomePage.html">Home</a> 
+                                <a href="#about">About</a>
+                                <a href="Courses.html">Course</a>
+                                <a href="Contact.html">Contact us</a>
+                                <a href="Login.html">Login</a>
+                                <a href="Sign-up.html" style="background-color:#FF9E00">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+     <div id="main">
+           
+            <div id="Community">
+                 <div id="community_header">Community</div>
+                 <div id="community_footer"><img src="twitter-icon-download-18.png"/><br/>
+                  <img src="2000px-Facebook_icon_2013.svg.png"/>
+                     
+               </div>    
+            </div>
+            <div id="FAQ">
+               <div id="FAQ_header">Wanna Ask ?</div>
+                <form id="f" action="Reply_soon.html">
+                     <div id="form_name">
+                        <div style="font-size:23px;padding-left:30px;"> Name:<br/>
+                         <input type="text" name="name" required/>
+                     </div>
+                     </div>
+                     <div id="form_email">
+                    
+                        <div style="font-size:23px;padding-left:30px;"> Email:<br/>
+                         <input type="email" name="email" required/>
+                    
+                     </div>
+                     </div>
+                     <div id="form_content">
+                     <div style="font-size:23px;padding-left:30px;">Content:<br/>
+                          <input type="text" id="text" required/>
+                          </div>
+                     </div>
+                  <div id="enter">
+                    <div id="pressEnter" style="text-align:center;">
+                      <button class="button" type="submit" name="submit"><span>Submit</span></button>
+                    </div>
+                </div> 
+                </form>
+            </div>
+        
+ </div>
+      <div id="Appendix">
+                <div style="width:20%;float:left;height:auto;color:white;font-size:20px;">
+                    <img src="bjango-quattro-lava.gif" width="200px" height="200"/>
+                </div>
+                <div style="width:30%;float:left;height:auto;color:white;font-size:25px;">
+                    <div> || SKYCODER<br/>
+                        1- 298, Mountain View, CA, USA<br/>
+                        Tel: (08)835-9999999<br/>
+                        Email :Skycoder@gmail.com<br/>
+                    </div>
+                </div>
+                <div style="width:30%;float:left;font-size:23px;color:white;">
+                         All images, icons are copyrighted by font-awesome.min.css, devianart.com,...
+                         Font-style "Myriad Set Pro", "Segoe UI Light" from Microsoft(R) and  Apple;<br/>
+                         Copyrighted (c) 2016 by Bui Hoang Thong.
+                </div>
+
+            </div> 
+</body>
+</html>

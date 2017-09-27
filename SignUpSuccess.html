@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SignUp success !</title>
+
+<style>
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin:0px;
+}
+
+ #head {
+	 padding-top:40px;
+	 text-align:center;	 
+	 height:auto;
+	 font-family:"Myriad Set Pro"; 
+	 width:70%;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #00FFF3;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+a {
+	text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+        <div id="head">
+            <div id="header1" style="font-size:60px">
+                <b>Congratulation, you have become the next Sky's of our SkyCoder Community !</b>  <br/>
+                <h1 style="font-size:30px">please check your email's inbox for more infos, and hope you have a great time when coding with us</h1> <br/>
+            </div>
+            <div id="enter">
+                    <div id="pressEnter" style="text-align:center;">
+                        <button class="button" ><span><a href="HomePage.html">HomePage</a></span></button>
+                    </div>
+                </div> 
+        </div>
+</body>
+</html>
